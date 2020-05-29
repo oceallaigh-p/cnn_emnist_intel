@@ -1,0 +1,12 @@
+name: intel_python_env
+channels:
+  - intel
+  - defaults
+dependencies:
+  - intelpython3_full
+  - python=3
+  - tensorflow-mkl
+  - seaborn
+  - opencv
+  - jupyter
+  - keras
