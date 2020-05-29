@@ -7,6 +7,8 @@
 
 This is a simple convolutional neural network (CNN) trained on the EMNIST Balanced dataset designed to test the performance of an environment built with the Intel Distribution for Puython. The Intel Distribution for Python is supposed to increase the performance of cpu-based neural networks. <sup id="a1">[1](#f1)</sup> 
 
+Early stopping was added to halt training once the model performance failed to improve on the validation dataset. This ensures the avoidance of both overfitting (by using too many training epochs) and underfitting (by using too few training epochs).
+
 ### CNN Architecture
 ```
 Convolutional (Conv2D)
